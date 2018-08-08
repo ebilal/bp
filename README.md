@@ -22,4 +22,4 @@ print('Train acc: {} - loss: {}'.format(acc, loss))
 print('Test acc: {} - loss: {}'.format(acc, loss))
 ```
 
-
+The ```decay``` variable
