@@ -1,4 +1,4 @@
-# bp
+# Back propagation
 Numpy implementation of the backpropagation algorithm with momentum and weight decay. It implements dense layers as objects of class Dense that can be strung together via a python list into a deep neural network.
 
 How to run:
