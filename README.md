@@ -22,4 +22,4 @@ print('Train acc: {} - loss: {}'.format(acc, loss))
 print('Test acc: {} - loss: {}'.format(acc, loss))
 ```
 
-The ```decay``` variable
+The ```decay``` variable reduces the learning rate using the formula ```lr = lr * (1. / (1. + decay * epoch))``` or if it's a list ```decay = [100, 200]``` it reduces the learning rate by an order of magnitude at epoch 100 and then at epoch 200. 
